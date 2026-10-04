@@ -1,0 +1,13 @@
+---
+# mc_isaac description of the mc_rtc robot module @REVO2_MODULE@ (BrainCo Revo2 @SIDE@ hand alone, fixed base)
+usd: "@REVO2_USD@"
+fixed: true
+# PhysX joint drives (force drives, rad units), gains from revo2_mj_description pdgains/revo2_@SIDE@_hand/PDgains_sim.dat
+# *_distal_joint are PhysX mimic joints (follow their proximal joint), no drive
+drives:
+  - {joints: "@SIDE@_thumb_metacarpal_joint", stiffness: 20.0, damping: 1.0}
+  - {joints: "@SIDE@_thumb_proximal_joint", stiffness: 40.0, damping: 1.2}
+  - {joints: "@SIDE@_index_proximal_joint", stiffness: 35.0, damping: 1.0}
+  - {joints: "@SIDE@_middle_proximal_joint", stiffness: 35.0, damping: 1.0}
+  - {joints: "@SIDE@_ring_proximal_joint", stiffness: 35.0, damping: 1.0}
+  - {joints: "@SIDE@_pinky_proximal_joint", stiffness: 30.0, damping: 0.8}
