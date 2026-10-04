@@ -1,6 +1,6 @@
 # revo2_isaac_description
 
-This package provides the BrainCo Revo2 hand models for `mc_isaac` (Isaac Sim simulation of
+This package provides the BrainCo Revo2 hand models for [mc_isaac](https://github.com/isri-aist/mc_isaac). (Isaac Sim simulation of
 [mc_rtc](https://jrl-umi3218.github.io/mc_rtc/) controllers), like `revo2_mj_description` does for
 [mc_mujoco](https://github.com/rohanpsingh/mc_mujoco).
 
